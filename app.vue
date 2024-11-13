@@ -6,3 +6,9 @@
     <h1 class="text-3xl font-bold">Web Forms</h1>
   </div>
 </template>
+
+<style lang="postcss">
+body {
+  @apply dark:bg-gray-900 dark:text-gray-200;
+}
+</style>
