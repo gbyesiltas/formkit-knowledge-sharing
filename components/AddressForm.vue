@@ -18,7 +18,7 @@ const onSubmit = (formData: { name: string, email: string, country: string }) =>
         </FormKit>
         
         <FormKit type="group" name="address">
-            <FormKit type="select" name="country" :options="[{ label: 'Netherlands', value: 'nl' }, { label: 'United Kingdom', value: 'uk' }]" />
+            <AddressInputs />
         </FormKit>
     </FormKit>
 </template>
