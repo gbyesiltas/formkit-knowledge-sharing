@@ -17,7 +17,7 @@
         <label for="city">City</label>
         <input type="text" name="city" />
 
-        <CountryInput />
+        <NativeCountryInput />
 
         <label for="isDefault">Mark as default address</label>
         <input type="checkbox" name="isDefault" />
